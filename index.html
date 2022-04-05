@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<title>UpQode</title>
+<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <a id="Home"></a>
+    <div class="topnav" id="myTopnav">
+      <div class="logo">
+        <img src="images/logo.png" width="20" alt="image">
+        <span>UPQODE</span>
+      </div>
+      <div id="myMenu">
+        <a href="#Home" class="am activ">Home</a>
+        <a href="#Services" class="am">Services</a>
+        <a href="#Team" class="am">Team</a>
+        <a href="#Contact" class="am">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction(this)">
+          <div class="bar1" style="top:15px"></div>
+          <div class="bar2" style="top:25px"></div>
+          <div class="bar3" style="top:35px"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+<main>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="https://vyo.travel/wp-content/uploads/2020/08/IMG_7002.jpg" style="width:100vw; height: 100vh;" alt="image">
+      <div class="texttitle">Перша сторінка </div>
+      <div class="text">Motivation And Personal Vision An Unbeatable Force</div>
+      <div class="button">Натисни тут ;)</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/%D0%93%D0%BE%D1%80%D0%B8_%D0%B2_%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%8F%D1%85_%D0%94%D1%80%D0%B0%D0%B3%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%83.jpg" style="width:100vw; height: 100vh;" alt="image">
+      <div class="texttitle">Mileage Made Simple </div>
+      <div class="text">Motivation And Personal Vision An Unbeatable Force</div>
+      <div class="button">Start Free Trial</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://zvidusil.in.ua/wp-content/uploads/2020/07/%D0%95%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D1%82.jpg" style="width:100vw; height: 100vh;" alt="image">
+      <div class="texttitle">Mileage Made Simple </div>
+      <div class="text">Motivation And Personal Vision An Unbeatable Force</div>
+      <div class="button">Start Free Trial</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)" style="left: 47%"></span> 
+    <span class="dot" onclick="currentSlide(2)" style="left: 50%"></span> 
+    <span class="dot" onclick="currentSlide(3)" style="left: 53%"></span> 
+  </div>
+  <a id="Services"></a>
+  <br>
+  <br>
+  <img src="images/services.jpg" alt="image" style="width:100%">
+
+
+  <br><br>
+  <a id="Team"></a>
+  <br>
+  <br>
+  <br>
+  
+  <div class="team-container">
+    <!--Slide 1-->
+    <div class="team fade" >
+      <div class="teamtitle">
+        Julia Harrington
+      </div>
+      <div class="ttext">
+        ART DIRECTOR
+      </div>
+      <div class="textbasic">
+        Have you over had a problem with a burned light? Thanks to the effort of Thomas Edison we no langer to invent a light bulb. We just go to the store or our cupboard and pull one out and screw it in. When we are feeling so low snd deep in the pits, this is ehen we need light to see our way through.
+      </div>
+      <div class="ttext" style="color: grey;">
+        &#9679;FACEBOOK  &#9679;LINKEDIN   &#9679;TWITTER
+      </div>
+      <img class="teamimg1 fadet"  src="images/team/julia.png" alt="image">
+      <img class="teamimg2 fadet1"  src="images/team/kyle.png" alt="image">
+      <img class="teamimg3"  src="images/team/harry.png" alt="image">
+      <div class="buttonteam">
+      <a class="prevt" style="color:grey; position:absolute;">
+      &#8592; PREVIOUS
+      </a>
+      <a class="nextt" onclick="plusSlidest(1)">
+        <img src="images/team/kyle.png" class="imgt" alt="image">
+        <div>
+          NEXT &#8594; <br> <span style="font-weight: bold;"> Kyle Walker</span>
+        </div>
+      </a>
+    </div>
+    </div>
+    <!--Slide 2-->
+    <div class="team fade" >
+      <div class="teamtitle">
+        Kyle Walker
+      </div>
+      <div class="ttext">
+        DESIGNER
+      </div>
+      <div class="textbasic">
+        Have you ever had a problem with a burned light? Thanks to the effort of Thomas Edison we no longer need to invent a light bulb We just go to the store or our cupboard and pull one out and screw it in.
+      </div>
+      <div class="ttext" style="color: grey;">
+        &#9679;FACEBOOK  &#9679;LINKEDIN   &#9679;TWITTER
+      </div>
+      <img class="teamimg1 fadet"  src="images/team/kyle.png" alt="image">
+      <img class="teamimg2 fadet1"  src="images/team/harry.png" alt="image">
+      <img class="teamimg3"  src="images/team/marcus.png" alt="image">
+      <div class="buttonteam">
+      <a class="prevt" onclick="plusSlidest(-1)">
+         <div> 
+          &#8592; PREVIOUS <br><span style="font-weight: bold;"> Julia Harrington</span></div><img src="images/team/julia.png" class="imgt" alt="image">
+      </a>
+        
+      <a class="nextt" onclick="plusSlidest(1)">
+        <img src="images/team/harry.png" class="imgt" alt="image">
+        <div>
+          NEXT &#8594; <br> <span style="font-weight: bold;"> Harry Kane</span>
+        </div>
+      </a>
+    </div>
+    </div>
+    <!--Slide 3-->
+    <div class="team fade" >
+      <div class="teamtitle">
+        Harry Kane
+      </div>
+      <div class="ttext">
+        OFFICE MANAGER
+      </div>
+      <div class="textbasic">
+        Have you ever had a problem with a burned light? Thanks to the effort of Thomas Edison we no longer need to invent a light bulb. We just go to the store or our cupboard and pull one out and screw it in. When we are feeling so low and deep in the pits, this is when we need light to see our way through. Have you ever had a problem with a burned light? Thanks to the effort of Thomas Edison we no longer need to invent a light bulb.
+      </div>
+      <div class="ttext" style="color: grey;">
+        &#9679;FACEBOOK  &#9679;LINKEDIN   &#9679;TWITTER
+      </div>
+      <img class="teamimg1"  src="images/team/harry.png" alt="image">
+      <img class="teamimg2"  src="images/team/marcus.png" alt="image">
+      <img class="teamimg3"  src="images/team/fernando.png" alt="image">
+      <div class="buttonteam">
+      <a class="prevt" onclick="plusSlidest(-1)">
+         <div> 
+          &#8592; PREVIOUS <br><span style="font-weight: bold;"> Kyle Walker</span></div><img src="images/team/kyle.png" class="imgt" alt="image">
+      </a>
+        
+      <a class="nextt" onclick="plusSlidest(1)">
+        <img src="images/team/marcus.png" class="imgt" alt="image">
+        <div>
+          NEXT &#8594; <br> <span style="font-weight: bold;"> Marcus Rashford</span>
+        </div>
+      </a>
+    </div>
+    </div>
+    <!--Slide 4-->
+<div class="team fade" >
+      <div class="teamtitle">
+        Marcus Rashford
+      </div>
+      <div class="ttext">
+        ART DIRECTOR
+      </div>
+      <div class="textbasic">
+        Have you ever had a problem with a burned light? When we are feeling so low and deep in the pits, this is when we need light to see our way through.
+      </div>
+      <div class="ttext" style="color: grey;">
+        &#9679;FACEBOOK  &#9679;LINKEDIN   &#9679;TWITTER
+      </div>
+      <img class="teamimg1"  src="images/team/marcus.png" alt="image">
+      <img class="teamimg2"  src="images/team/fernando.png" alt="image">
+      <img class="teamimg3"  src="images/team/emma.png" alt="image">
+      <div class="buttonteam">
+      <a class="prevt" onclick="plusSlidest(-1)">
+         <div> 
+          &#8592; PREVIOUS <br><span style="font-weight: bold;"> Harry Kane</span></div><img src="images/team/harry.png" class="imgt" alt="image">
+      </a>
+        
+      <a class="nextt" onclick="plusSlidest(1)">
+        <img src="images/team/fernando.png" class="imgt" alt="image">
+        <div>
+          NEXT &#8594; <br> <span style="font-weight: bold;"> Fernando Torres</span>
+        </div>
+      </a>
+    </div>
+    </div>
+    <!--Slide 5-->
+<div class="team fade" >
+      <div class="teamtitle">
+        Fernando Torres
+      </div>
+      <div class="ttext">
+        ART DIRECTOR
+      </div>
+      <div class="textbasic">
+        Have you ever had a problem with a burned light? When we are feeling so low and deep In the pits, this is when we need light to see our way through. When we are feeling so low and deep in the pits, this Is when we need light to see our way through.
+      </div>
+      <div class="ttext" style="color: grey;">
+        &#9679;FACEBOOK  &#9679;LINKEDIN   &#9679;TWITTER
+      </div>
+      <img class="teamimg1"  src="images/team/fernando.png" alt="image">
+      <img class="teamimg2"  src="images/team/emma.png" alt="image">
+      <div class="buttonteam">
+      <a class="prevt" onclick="plusSlidest(-1)">
+         <div> 
+          &#8592; PREVIOUS <br><span style="font-weight: bold;"> Marcus Rashford</span></div><img src="images/team/marcus.png" class="imgt" alt="image">
+      </a>
+        
+      <a class="nextt" onclick="plusSlidest(1)">
+        <img src="images/team/emma.png" class="imgt" alt="image">
+        <div>
+          NEXT &#8594; <br> <span style="font-weight: bold;"> Emma Cahill</span>
+        </div>
+      </a>
+    </div>
+    </div>
+    <!--Slide 6-->
+<div class="team fade" >
+      <div class="teamtitle">
+        Emma Cahill
+      </div>
+      <div class="ttext">
+        ART DIRECTOR
+      </div>
+      <div class="textbasic">
+        Have you ever had a problem with a burned light? When we are feeling so low and deep In the pits, this is when we need light to see our way through. When we are feeling so low and deep in the pits, this is when we need light to see our way through.
+      </div>
+      <div class="ttext" style="color: grey;">
+        &#9679;FACEBOOK  &#9679;LINKEDIN   &#9679;TWITTER
+      </div>
+      <img class="teamimg1"  src="images/team/emma.png" alt="image">
+            <div class="buttonteam">
+      <a class="prevt" onclick="plusSlidest(-1)">
+         <div> 
+          &#8592; PREVIOUS <br><span style="font-weight: bold;"> Fernando Torres</span></div><img src="images/team/fernando.png" class="imgt" alt="image">
+      </a>
+        
+      <a style="color:grey; position:absolute; top: 50%; left: 1vw; transform: translate(0, -50%);">
+        <div>
+          NEXT &#8594;
+        </div>
+      </a>
+    </div>
+    </div>
+   
+  </div>
+
+  <a id="Contact"></a>
+  <br>
+  <br>
+  <br>
+  <div class="map">
+    <div class="green" id="title">Meet Us <br>in Your City</div>
+    <div>2005 Stokes Isle Apt,896, <br>Venaville, New York 10010</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12092.488132909557!2d-73.99242487855359!3d40.73734021427674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zMjAwNSBTdG9rZXMgSXNsZSBBcHQuIDg5NiwgVmVuYXZpbGxlLCBOWSAxMDAxMCwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lg!5e0!3m2!1suk!2sua!4v1626448288105!5m2!1suk!2sua"  allowfullscreen="" loading="lazy" id="m">
+    </iframe>
+    <div class="addressa la">
+      <img src="images/location-map-flat.png" class="mi" alt="image">
+      <span class="green">Los Angeles, USA</span>
+      <div class="marginleft">2005 Stokes Isle Apt,896,</div>
+      <div class="marginleft">Venaville, New York 10010</div>
+    </div>
+    <div class="addressa ny" >
+      <img src="images/location-map-flat.png" class="mi" alt="image">
+      <span class="green">New York, USA</span>
+      <div class="marginleft">2005 Stokes Isle Apt,896,</div>
+      <div class="marginleft">Venaville, New York 10010</div>
+    </div>
+    <div class="addressa bn">
+      <img src="images/location-map-flat.png" class="mi" alt="image">
+      <span class="green">Boston, USA</span>
+      <div class="marginleft">2005 Stokes Isle Apt,896,</div>
+      <div class="marginleft">Venaville, New York 10010</div>
+    </div>
+    <div class="addressa dt">
+      <img src="images/location-map-flat.png" class="mi" alt="image">
+      <span class="green">Detroit, USA</span>
+      <div class="marginleft">2005 Stokes Isle Apt,896,</div>
+      <div class="marginleft">Venaville, New York 10010</div>
+    </div>
+    <div class="info">
+      <p class="titleinfo">New York</p>
+      <div class="basicinfo">2005 Stokes Isle Apt,896,</div>
+      <div class="basicinfo">Venaville, New York 10010</div>
+      <br>
+      <img src="https://img.icons8.com/pastel-glyph/2x/clock--v2.png" class="mi" alt="image">
+      <span class="title2info">Wokr Schedule</span>
+      <br>
+      <span style="font-weight: bold;" class="basicinfo">Mon-Sat:</span>
+      <span class="basicinfo" style="margin-left:0px">11:00-19:00</span>
+      <br>
+      <span style="font-weight: bold;" class="basicinfo">Sun:</span>
+      <span class="basicinfo" style="margin-left:0px">11:00-16:00</span>
+      <br>
+      <br>
+      <img src="https://cdn.iconscout.com/icon/free/png-256/phone-call-16-1172958.png" class="mi" alt="image">
+      <span class="title2info">Head Office</span>
+      <br>
+      <span class="basicinfo">(0043) 568 456 902</span>
+      <br>
+      <span class="basicinfo">(0043) 568 456 902</span>
+      <br>
+      <br>
+      <img src="https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png" class="mi" alt="image">
+      <span class="title2info">Head Office</span>
+      <br>
+      <span class="basicinfo">hello@pad.architercure</span>
+      <br>
+      <span class="basicinfo">support@pad.architercure</span>
+    </div>
+  </div>
+</main>
+
+<footer id="footer">
+  <br>
+  <p class="footertitle"> 
+      <img src="images/logo.png" width="35" alt="image">
+      UPQODE
+  </p>
+  <div id="footermenu">
+    <a href="#Home" class="af">Home</a>
+        <a href="#Services" class="af">Services</a>
+        <a href="#Team" class="af">Team</a>
+        <a href="#Contact" class="af">Contact Us</a>
+  </div>
+  <p class="footerbasic">&#169; UpQode. All Right Reserved.</p> 
+</footer>
+ 
+<script src="script/script.js"></script>
+
+</body>
+</html>
